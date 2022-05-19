@@ -1,0 +1,41 @@
+:root {
+    font-family: Helvetica, Arial;
+}
+
+header h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("../images/pattern.jpeg");
+}
+
+.sectionTitle{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#brushSec .sectionTitle{
+    background-color: mediumspringgreen;
+}
+
+#frameSec .sectionTitle{
+    background-color: lightcoral;
+}
+
+#paintSec .sectionTitle{
+    background-color: skyblue;
+}
+
+.price{
+    color: blue;
+    font-weight: bold;
+}
+
+/* @media (max-width: 1162px) {
+    header h1{
+        font-size: 8vw;
+    }
+    
+}*/
